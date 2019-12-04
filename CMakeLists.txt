@@ -5,7 +5,7 @@ set(CMAKE_BUILD_TYPE "Release")
 add_definitions(-std=c++11 -Wall -O2)
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
-find_package(OpenCV 3 REQUIRED)
+find_package(OpenCV REQUIRED)
 find_package(Sophus REQUIRED)
 
 include_directories(
